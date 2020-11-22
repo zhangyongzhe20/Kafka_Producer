@@ -1,0 +1,10 @@
+1. put "cppkafka_EXPORTS" in VS "Project's Properties -> C/C++ -> Preprocessor definitions"
+
+2. https://dzone.com/articles/running-apache-kafka-on-windows-os
+
+3. cppkafka boost not completed(missing filesystem.h)
+solution: install boost before cppkafka
+
+4. modify buffered_producer.h
+
+
